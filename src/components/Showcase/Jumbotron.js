@@ -6,7 +6,7 @@ import Organisations from './Organisations'
 
 const Jumbotron = () => {
     return (
-        <>
+        <div style={{ overflow: 'hidden' }}>
             <div className='skew'>
                 <div className='content'>
                     <h3>
@@ -29,7 +29,7 @@ const Jumbotron = () => {
                 </div>
             </div>
             <Organisations />
-        </>
+        </div>
     )
 }
 

@@ -129,7 +129,7 @@ const Offers = () => {
                 className='d-flex'
                 style={{
                     paddingTop: 80,
-                    paddingLeft: 180,
+                    paddingLeft: '15%',
                     background: 'rgba(57, 119, 222, 1)',
                     color: '#fff',
                 }}
@@ -180,10 +180,10 @@ const Offers = () => {
                     color: '#fff',
                 }}
             >
-                <div className='col-6' style={{ paddingLeft: 50 }}>
+                <div className='col-6' style={{ paddingLeft: '5%' }}>
                     <img src={ValidateBvn} alt='Validate Bvn' width={600} />
                 </div>
-                <div className='col-6' style={{ paddingLeft: 90 }}>
+                <div className='col-6' style={{ paddingLeft: '8%' }}>
                     <h4 style={{ maxWidth: '350px' }}>
                         Go through the API Documentation to properly understand
                         what Doja is, you can then schedule a demo call.

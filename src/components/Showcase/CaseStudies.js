@@ -5,13 +5,16 @@ import DigitalWorld from '../../assets/images/digital_world.png'
 
 const CaseStudies = () => {
     return (
-        <div style={{ padding: '3em 8em' }}>
+        <div className='case-studies' style={{ padding: '3em 8em' }}>
             <div className='row gx-3'>
                 <div className='col-3'>
                     <div className='row gy-1'>
                         <div className='col-12'>
-                            <h5>Read our case studies</h5>
-                            <p style={{ fontSize: '10px' }}>
+                            <hr />
+                            <h5>
+                                <strong>Read our case studies</strong>
+                            </h5>
+                            <p style={{ fontSize: '12px' }}>
                                 Find out about exciting products that have been
                                 built and that you can build with Dojah!
                             </p>
@@ -21,12 +24,13 @@ const CaseStudies = () => {
                                 src={VR}
                                 alt='A boy wear VR glasses'
                                 width='100%'
+                                height='90%'
                             />
                         </div>
                     </div>
                 </div>
                 <div className='col-9'>
-                    <div className='row gy-3'>
+                    <div className='row gy-2'>
                         <div
                             className='col-12'
                             style={{ maxHeight: '250px', maxWidth: '100%' }}
