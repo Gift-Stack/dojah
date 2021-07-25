@@ -1,0 +1,45 @@
+$primary-color: rgba(57, 119, 222, 1);
+$secondary-color: rgba(27, 42, 78, 1);
+$alt-color: rgba(189, 210, 244, 1);
+
+.footer {
+    color: $alt-color;
+    background: rgba(27, 42, 78, 1);
+    padding: 4em 10%;
+    font-size: 12px;
+    .col-3 {
+        position: relative;
+        h6 {
+            color: $primary-color !important;
+            margin-bottom: 25px;
+        }
+        a {
+            text-decoration: none;
+            color: $alt-color;
+        }
+    }
+    .contact-info {
+        margin-top: 2em;
+        .contact-main {
+            display: flex;
+            align-items: center;
+            div {
+                margin-right: 20px;
+                font-size: smaller;
+                &:first-child {
+                    margin-right: 30px;
+                }
+                span {
+                    margin-left: 5px;
+                }
+                .small {
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+        .contact-others {
+            margin-top: 30px;
+        }
+    }
+}

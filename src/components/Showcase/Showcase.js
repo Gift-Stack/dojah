@@ -23,7 +23,7 @@ const Showcase = () => {
                     <button className='btn btn-lg'>Get started</button>
                     <button className='btn btn-lg'>Schedule a demo</button>
                 </div>
-                <a href='/' style={{ color: '#677189', fontSize: 'smalls' }}>
+                <a href='/' style={{ color: '#677189', fontSize: 'small' }}>
                     Visit our API documentation
                 </a>
             </div>
